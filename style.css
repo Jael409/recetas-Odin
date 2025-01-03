@@ -1,0 +1,148 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    background-color: rgb(195, 211, 200);
+}
+
+.navbar {
+    padding:  2rem;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border: none;
+    text-align: center;
+}
+
+.recetasmenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+#recetasDest {
+    margin-top: 85px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#recetasDest > h2 {
+    background-color:rgb(255, 255, 255);
+    font-size: 3rem;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.titleemp {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.titleemp > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.recipes {
+    width: 100%;
+    margin-top: 100px;
+    padding: 2rem;
+    background-color:  rgb(195, 211, 200);
+}
+
+#recetario {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    border-radius: 8px;
+}
+
+
+
+h2 {
+    background-color:  rgb(195, 211, 200);
+}
+
+p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.empanadasbystep {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img {
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    div, img {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 320px) {
+    .recetasmenu {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media only screen and (max-width: 540px) {
+    #heroImg {
+      display: none;
+    }
+  }
+
+footer {
+    padding: 25px;
+    margin-top: 50px;
+    background-color:  rgb(195, 211, 200);
+}
